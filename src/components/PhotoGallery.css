@@ -1,0 +1,59 @@
+/* PhotoGallery.css */
+.photo-gallery {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 0px 24px;
+}
+
+.gallery-row {
+    display: flex;
+    margin-bottom: 1.1rem;
+    gap: 1.1rem;
+    width: 100%;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 4px; */
+}
+
+/* Ensure all images have the same height */
+.gallery-image {
+    width: 100%;
+    height: 400px;
+    /* Fixed height for all images */
+    object-fit: cover;
+    display: block;
+}
+
+/* Width ratios for alternating rows */
+.wide {
+    width: 66.66%;
+    /* 2/3 width */
+}
+
+.narrow {
+    width: 33.33%;
+    /* 1/3 width */
+}
+
+.gallery-caption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gallery-row {
+        flex-direction: column;
+    }
+
+    .gallery-item,
+    .wide,
+    .narrow {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

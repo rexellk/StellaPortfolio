@@ -1,0 +1,35 @@
+/* src/components/ProjectTag.css */
+.project-tag {
+
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #636366;
+    /* Apple's system gray color */
+    background-color: #F2F2F7;
+    /* Apple's light gray */
+    padding: 4px 20px;
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    letter-spacing: -0.01em;
+    /* Subtle Apple-style letter spacing */
+    transition: background-color 0.2s ease;
+}
+
+.project-tag:hover {
+    background-color: #E5E5EA;
+    /* Slightly darker on hover */
+}
+
+/* Container for multiple tags */
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    margin-bottom: 20px;
+    margin-top: -4px;
+    padding: 0px 20px;
+    /* Negative margin to tighten space after title */
+}
