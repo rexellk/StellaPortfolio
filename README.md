@@ -1,8 +1,8 @@
-# 👋 Hey there, welcome to my digital playground!
+# 👋 Hey there, welcome to my 20225 ver. portfolio website
 
 ## What's this all about?
 
-This is my 2025 portfolio showcasing some of my favorite projects and experiments. Think of it as my little corner of the internet where I get to show off what I've been building!
+This is my 2025 portfolio showcasing some of my favorite UIUX and more design projects and experiments. Think of it as my little corner of the internet where I get to show off what I've been building!
 
 ## 🚀 Features
 
@@ -15,7 +15,6 @@ This is my 2025 portfolio showcasing some of my favorite projects and experiment
 
 This site was crafted with:
 - React (because who doesn't love components?)
-- A sprinkle of CSS wizardry
 - Plenty of late-night coding sessions
 - Probably too much coffee
 
