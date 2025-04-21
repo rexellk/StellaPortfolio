@@ -22,9 +22,8 @@ const Notes = () => {
                     {/* <h1 className="project-title">Notes Redesign (2023)</h1> */}
                     <div className="columnlayout3">
                         <div>
-                            <h2>Me:</h2>
-                            <p>
-                                I weave together curiosity, empathy, attention to detail, and critical thinking to create meaningful design experiences.
+                            <h2>Me&Design:</h2>
+                            <p> As a early adopter of emerging tools, I weave together curiosity, empathy, attention to detail, and critical thinking to create unique experiences.
                             </p>
                         </div>
                         <div>
@@ -34,18 +33,19 @@ const Notes = () => {
                             </p>
                         </div>
                     </div>
-                    <br /><hr /><br />
+                    <div><img className="graphics-image-content" src="/images/aboutcollage.png" alt="Overview" /></div>
+                    <br /><br />
                     <div className="columnlayout3">
                         <div>
                             <h2>Technology:</h2>
                             <p>
-                                Figma, Sketch, HTML/CSS, JavaScript, Wordpress, Adobe Creative Suits (Illustrator, Photoshop, InDesign, After Effect, Premiere Pro), SQL, R, Unity, Blender, SolidWorks, Rhino, KeyShot.
+                                Figma, Sketch, HTML/CSS, JavaScript, Wordpress, Adobe Creative Suits, SQL, R, Unity, Blender, SolidWorks, Rhino, KeyShot.
                             </p>
                         </div>
                         <div>
                             <h2>Design:</h2>
                             <p>
-                                UX Design, Product Design, Industrial Design, Design System, Front-End Web Dev, Wireframes, Information Architecture, Visual Design, Prototyping, Video Editing, 3D Modeling, Rendering, Animation, Motion Design.
+                                UIUX Design, Industrial Design, Design System, Front-End Web Dev, Wireframes, Visual Design, Prototyping, Video Editing, 3D Modeling, Rendering, Motion Design.
                             </p>
                         </div>
                         <div>
@@ -55,7 +55,22 @@ const Notes = () => {
                             </p>
                         </div>
                     </div>
-                    <div><img className="graphics-image-content" src="/images/aboutcollage.png" alt="Overview" /></div>
+<hr /> <br />
+                    <h2>Find Me Here:</h2>
+                    <div className="social-buttons">
+                        <a href="https://www.linkedin.com/in/stellapengrnr/" target="_blank" rel="noopener noreferrer" className="button">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Ste11aPeng" target="_blank" rel="noopener noreferrer" className="button">
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.behance.net/ste11a505c" target="_blank" rel="noopener noreferrer" className="button">
+                            <span>Behance</span>
+                        </a>
+                        <a href="https://ste11apeng.github.io/portfolio2023/" target="_blank" rel="noopener noreferrer" className="button">
+                            <span>Previous Portfolio</span>
+                        </a>
+                    </div>
                 </FadeInSection>
             ),
         },
@@ -221,7 +236,7 @@ const Notes = () => {
     return (
         <ProjectTemplate
             coverImage="/images/aboutcover.png"
-            projectTitle="About Stella"
+            projectTitle="I'm Stella, a Product Designer with 3+ years experience in UX design & front-end development."
             asideItems={asideItems}
             sections={sections}
             footerContent={footerContent}

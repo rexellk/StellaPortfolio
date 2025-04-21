@@ -71,6 +71,9 @@ const CircleStatus = () => {
             // title: 'When the Lights Go Out',
             content: (
                 <FadeInSection>
+                     <div className="project-tags">
+                        <ProjectTag>Problem</ProjectTag>
+                    </div>
                     <h1>When the Lights Go Out...</h1>
                     <div className="columnlayout3">
                         <div>
@@ -92,9 +95,9 @@ const CircleStatus = () => {
                     <br />
                     <div className="columnlayout3">
                         <div>
-                            <h1>
+                            <h2>
                                 How bad it is?
-                            </h1>
+                            </h2>
                         </div>
                         <div>
                             <br />
@@ -144,7 +147,9 @@ const CircleStatus = () => {
                     <br /><br />
                     <br /><br />
                     <br /><br />
-
+                    <div className="project-tags">
+                        <ProjectTag>Final Design</ProjectTag>
+                    </div>
                     <h1>Introducing Circle Status</h1>
                     <div className="columnlayout3">
                         <a href="https://circlestatus.webflow.io/" target="_blank" className="button">
@@ -176,7 +181,9 @@ const CircleStatus = () => {
 
 
                     <br /><br /><br />
-                    <p style={{ margin: '0px', color: 'grey' }}>Impact</p>
+                    <div className="project-tags">
+                        <ProjectTag>Impact</ProjectTag>
+                    </div>
                     <h1>Making Waves: Sales and lasting connections on trade show</h1>
 
                     <div className="columnlayout3">
@@ -231,6 +238,7 @@ const CircleStatus = () => {
                     <div className="graphics-image-content">
                         <img src="/images/circle-research-cover.png" alt="Research cover" />
                     </div>
+                    
                     <br />
                     <h1>In Research, We Tried it All</h1>
                     <br /> <hr />
@@ -263,6 +271,9 @@ const CircleStatus = () => {
             content: (
                 <FadeInSection>
                     <br /><br /> <br /><br />
+                    <div className="project-tags">
+                        <ProjectTag>Ideation</ProjectTag>
+                    </div>
                     <h1>From Branding Scale to Actual Ideas</h1>
                     <hr /> <br />
                     <div className="columnlayout3">
@@ -319,6 +330,9 @@ const CircleStatus = () => {
             content: (
                 <FadeInSection>
                     <br /><br /><br />
+                    <div className="project-tags">
+                        <ProjectTag>Testing</ProjectTag>
+                    </div>
                     <h1>3 Concept + 2 Prototype Testing</h1>
                     <hr /> <br />
                     <div className="columnlayout3">
