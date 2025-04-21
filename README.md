@@ -2,8 +2,7 @@
 
 ## What's this all about?
 
-This is my 2025 portfolio showcasing some of my favorite UIUX and more design projects and experiments. Think of it as my little corner of the internet where I get to show off what I've been building!
-- [WEBSITE:)](https://ruocanpeng.com/)
+This is my 2025 portfolio showcasing some of my favorite UIUX and more design projects and experiments. Think of it as my little corner of the internet where I get to show off what I've been building! Check the work here: [WEBSITE:)](https://ruocanpeng.com/)
 
 ## 🚀 Features
 
