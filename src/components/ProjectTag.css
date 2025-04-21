@@ -1,6 +1,5 @@
 /* src/components/ProjectTag.css */
 .project-tag {
-
     display: inline-block;
     font-size: 14px;
     font-weight: 400;
@@ -15,6 +14,12 @@
     letter-spacing: -0.01em;
     /* Subtle Apple-style letter spacing */
     transition: background-color 0.2s ease;
+    
+    /* 禁止文本选择 */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .project-tag:hover {

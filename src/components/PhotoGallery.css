@@ -16,6 +16,16 @@
     position: relative;
     overflow: hidden;
     /* border-radius: 4px; */
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    /* 移除动画，改用transition */
+}
+
+/* 当元素有active类时显示它 */
+.gallery-item.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Ensure all images have the same height */
