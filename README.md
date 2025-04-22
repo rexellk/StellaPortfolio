@@ -33,6 +33,17 @@ You can find me on:
 - [LinkedIn](https://www.linkedin.com/in/stellapengrnr/) (Professional face)
 - [Insta](https://www.instagram.com/ste11acc/) (Less professional face)
 
+## Memo for myself
+# 本地开发调试（可选）
+npm start
+
+# 构建 + 部署网站
+npm run deploy
+
+# 提交源码到 GitHub
+git add .
+git commit -m "Update"
+git push origin main
 
 ## 🏗️ Work in Progress
 
